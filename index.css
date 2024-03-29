@@ -1,0 +1,183 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    width:auto;
+} */
+
+
+
+.nav-bar{
+    background-color: rgb(24, 24, 42);
+    padding: 0px 10px;
+    color:white;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width:80%;
+    margin: auto;
+    display: block;
+}
+
+.step-1 {
+    background-color: rgb(232, 245, 250);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.step-2{
+    background-color: rgb(24, 24, 42);
+}
+
+.list{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    
+}
+
+.list img{
+    width:30px;
+    margin:0px 10px;
+}
+
+.list ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+.list li{
+    display: flex;
+    color:white;
+    margin:20px 20px;
+    text-align: center;  
+}
+
+.step-3 {
+    background-color: rgb(177, 226, 247);
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.card{
+    background-size: cover;
+}
+
+
+.step-4 {
+    background-color: rgb(232, 245, 250);
+}
+
+.sub{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.sub-1{
+    display: flex;
+    flex-direction: column;
+    margin-left:0px;
+    margin-right: 20px;
+    margin-top: 0;
+    /* padding:10px */
+}
+
+.sub-1 p{
+    padding: 15px;
+}
+
+.sub-1 h5{
+    margin-top: 0;
+}
+
+ a{
+    margin-top: 0;
+}
+
+.sub-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 400px;
+    margin-top: 0px; */
+}
+
+.step-5{
+    background-color:rgb(177, 226, 247);
+   
+}
+
+.step-5 img{
+    margin:0px 10px;
+}
+
+.step-6 {
+    background-color: rgb(24, 24, 42);
+    color:white
+}
+
+.step-6 li {
+    list-style-type: none;
+}
+
+.step-6 img {
+   margin-right: 10px;
+}
+
+.social-link:hover {
+    color: blue;
+    text-decoration: none; /* Optional: Remove underline on hover */
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .step-1 {
+        background-color: rgb(232, 245, 250);
+    }
+    
+
+    .profile-picture{
+        border-radius: 50%;
+        width:80%;
+    }
+    
+    .sub-1{
+        display: flex;
+        flex-direction: row;
+        margin-left:0px;
+        margin-right: 20px;
+    } 
+
+    .sub-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 400px;
+        margin-top: 0px;
+    }
+
+    .list li{
+        display: inline-block;
+        color:white;
+        margin:20px 50px;
+        text-align: center;  
+    }
+    
+    .sub-3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form li {
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+  
+
+}
